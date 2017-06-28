@@ -5,6 +5,12 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'devise', '~> 4.3'
+gem 'activeadmin', '~> 1.0'
+gem 'pry-rails', '~> 0.3.6'
+gem 'devise_invitable', '~> 1.7', '>= 1.7.2'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'chosen-rails', '~> 1.5', '>= 1.5.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.3'
